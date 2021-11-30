@@ -1,0 +1,199 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  padding: 0.5em;
+  background-color: rgba(0, 0, 0, .52);  
+}
+
+.col-1 {
+  display: flex;  
+  flex-direction: row;
+  flex: 1;
+  height: auto;
+}
+
+.col-1 p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  line-height: 1.5em;
+}
+
+.col-1 img {
+  width: 65%;
+  height: auto;
+}
+
+.col-2 {
+  display: flex;  
+  flex-direction: row-reverse;
+  flex: 1;
+  height: auto;
+}
+
+.col-2 p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  line-height: 1.5em;
+}
+
+.col-2 img {
+  width: 65%;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav li a {
+  
+}
+
+nav li a{
+  background-color: #2d6900;
+  border: 7px ridge rgb(94, 61, 30);
+  border-style: inset;
+  border-radius: 2em;
+  padding-right: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.5em;
+  color: gold;
+  text-decoration: none;
+  padding: 0.2em 1em 0.2em 1em;
+  margin: 1em 1em 1em 1em;
+}
+
+nav li a:hover {
+  background-color: gold;
+  color: black;
+  transition-duration: 0.5s;
+  color: black;
+  text-decoration: underline;
+}
+
+
+h1 {
+  font-size: 4em;
+  padding: 0.5em;
+}
+
+.button {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.button h3 a{
+  padding-top: 1em;
+  text-align: center;
+  padding-bottom: 1em;
+  border: 12px ridge rgb(94, 61, 30);
+  height: auto;
+  border-style: inset;
+  border-radius: 20em;
+  background-color: rgba(0, 0, 0, .52);
+  line-height: 1.5em;  
+  width: auto;
+  font-size: 2em;
+  width: 250px;
+  color: gold;
+  font-size: 4em;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+.button h3 a:hover {
+  background-color: gold;
+  color: black;
+  transition-duration: 0.7s;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #008064; /*#688000*/
+  color: gold;
+  background-size: cover;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+footer {
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-left: 45%;
+  
+}
+
+nav img {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 1em;
+  padding: 0.5em;
+  height: auto;
+  width: 200px;
+}
+
+img {
+  border: 12px ridge rgb(94, 61, 30);
+  margin: 1em;
+  width: 70%;
+  height: auto;
+  border-style: inset;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.5em;
+}
+
+h1 {
+  background-color: rgba(red, green, blue, alpha);
+}
+
+.container h2 {
+  padding-top: 1em;
+  text-align: center;
+  padding-bottom: 1em;
+  border: 12px ridge rgb(94, 61, 30);
+  margin: 2em;
+  height: auto;
+  border-style: inset;
+  border-radius: 20em;
+  background-color: rgba(0, 0, 0, .52);
+  line-height: 1.5em;  
+  width: auto;
+  font-size: 2em;
+}
+
+
+ /* Style the header */
+ 
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+} 
+
